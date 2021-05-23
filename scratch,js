@@ -1,0 +1,27 @@
+// write your code
+//document.body.style.color = "red";
+//var myVar=setInterval(timer,1000)
+
+//let val=document.getElementById("submit");
+//let val = document.querySelectorAll("click");
+//val.onclick=timer
+//i=5;
+/*function timer(){
+    document.getElementById("timer").innerHTML=i;
+    console.log(new Date().getTime())
+    if(i==0)
+    clearInterval(myVar)
+    
+    j=(i)+"%";
+    document.getElementById("timer").style.backgroundColor="blue";
+    document.getElementById("timer").style.width=j;
+    i=i-1;
+}*/
+
+
+//const val=document.querySelector('click');
+//const val=document.getElementById("form");
+//val.addEventListener("submit", () => {
+
+    //setInterval(hello, 1000);
+  //});
