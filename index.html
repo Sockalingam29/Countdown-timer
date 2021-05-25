@@ -9,16 +9,38 @@
 	<body>
 	<div id="ip">
 		<h1>Countdown timer</h1>
-		<input id="sec" class="enter" placeholder="SS" required>
-		<button type="button" onclick="hello()" id="submit">Submit</button>
+		<input id="date" type="date">
+		<button type="button" onclick="interval_set()" id="submit">Submit</button>
+		<div class="disptimer">
+			<div>
+				<h3 id="days">00</h3>
+				<h3>Days</h3>
+			</div>
+			<div>
+				<h3  id="hours">00</h3>
+				<h3>Hours</h3>
+			</div>
+			<div>
+				<h3  id="minutes">00</h3>
+				<h3>Minutes</h3>
+			</div>
+			<div>
+				<h3  id="seconds">00</h3>
+				<h3>Seconds</h3>
+			</div>
+			<div>
+				<h3  id="ms">000</h3>
+				<h3>Milli-seconds</h3>
+			</div>
+		</div>
 	</div>
-		
 		<div id="ipborder">
 			<div id="timer">Timer</div>	
-		</div>	
+		</div>
+
 		<div id="congrats"></div>
 		<!-- include this script to display the browser console on bottom right -->
-		<script src="https://bit.ly/codedamn-web-console"></script>
+		
 		<script src="/script.js"></script>
 	</body>
 </html>

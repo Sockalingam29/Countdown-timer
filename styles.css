@@ -15,6 +15,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 }
 h1{
 	font-weight: bolder;
@@ -59,4 +60,21 @@ button:hover{
 	padding-top: 15px;
 	font-weight: bolder;
 }
-
+.disptimer{
+	color:white;
+	display: flex;
+	justify-content:space-around;
+	
+}
+.disptimer div{
+	padding:1rem;
+	text-align: center;
+}
+input{
+	padding:10px;
+	margin-bottom: 15px;
+}
+input:hover{
+	cursor: pointer;
+	
+}
